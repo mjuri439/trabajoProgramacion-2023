@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(135deg, #f3f317, #76de76); /* Colores de fondo en gradiente */
+  }
+  .tituloUno{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+  }
+  .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .image-item {
+    width: 30%;
+    margin: 1%;
+  }
+  .image-item img {
+    width: 100%;
+    height: auto;
+  }
+  .titulo{
+    color: rgb(44, 20, 228);
+  }
+  .footer {
+    background: linear-gradient(135deg, #e7b9e1, #f800c6);
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20%;
+  } 
+  .footer .btn {
+    margin: 5px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    color: #000;
+  }
+  .footer .btn:hover {
+    background-color: #e313d1;
+    color: #000;
+  }
+.text-center{
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}
+@media(max-width:1000px)
+  
+
+
+
+
+ 
+
+
+
+
+
+
+  
+
+
