@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Consulta.css">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG_yBtgY0ZjxSEIKPPNEENbNx7dNr8oXFhVQ&usqp=CAU">
+    <title>Consulta</title>
+</head>
+<body>
+  <form id="form">
+    <div class="field">
+      <label for="from_name">usuario</label>
+      <input type="text" name="from_name" id="from_name" required>
+    </div>
+    <div class="field">
+      <label for="Nombre">Nombre</label>
+      <input type="text" name="Nombre" id="Nombre" required>
+    </div>
+    <div class="field">
+      <label for="telefono">telefono</label>
+      <input type="number" name="telefono" id="telefono" required>
+    </div>
+    <div class="field">
+      <label for="Email">Email</label>
+      <input type="text" name="Email" id="Email" required>
+    </div>
+    <div class="field">
+      <label for="Mensaje">Mensaje</label>
+      <input type="text" name="Mensaje" id="Mensaje" required>
+    </div>
+    <input type="submit" id="button" value="Send Email" >
+  </form>
+  
+  <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  
+  <script type="text/javascript">
+    emailjs.init('x7fXWv8KSXHd6BbPK')
+  </script>
+  <script src="./app.js"></script>
+  
+</body>
+</html>
